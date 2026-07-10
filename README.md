@@ -1,7 +1,7 @@
 Real-Time Marine Monitoring Dashboard
 
-Made by Darshil pasad and keval Patel
-
+Made by Darshil pasad and Keval Patel
+2nd yr engg students
 This project is a Real-Time Marine Monitoring Dashboard developed using HTML, CSS, JavaScript, Bootstrap, and Chart.js. It retrieves live marine and weather data from external APIs and displays important ocean conditions in a user-friendly dashboard.
 
 Features
