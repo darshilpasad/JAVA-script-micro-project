@@ -1,0 +1,254 @@
+
+
+body {
+  background: linear-gradient(135deg, #eaf8ff, #d9f2ff, #ffffff);
+
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+
+  color: #023047;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #005bea, #00c6fb) !important;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+  font-size: 26px;
+
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-size: 17px;
+
+  margin-left: 10px;
+
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffe66d !important;
+
+  transform: translateY(-2px);
+}
+
+.container h2 {
+  text-shadow: 0 3px 10px rgba(13, 110, 253, 0.25);
+}
+
+.form-select {
+  border-radius: 25px;
+
+  padding: 12px 20px;
+
+  border: 2px solid #0d6efd;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 12px rgba(13, 110, 253, 0.4);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #0066ff, #00bfff);
+
+  border: none;
+
+  border-radius: 30px;
+
+  padding: 12px 30px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
+.card {
+  border: none;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.85);
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+  transition: 0.35s;
+
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+
+  box-shadow: 0 15px 35px rgba(0, 119, 182, 0.35);
+}
+
+.card-body {
+  padding: 30px;
+
+  text-align: center;
+}
+
+.card h5 {
+  color: #0077b6;
+
+  font-size: 18px;
+
+  margin-bottom: 15px;
+}
+
+#temp,
+#wave,
+#wind,
+#direction,
+#airTemp,
+#humidity,
+#windSpeed,
+#pressure,
+#coordinates,
+#sunrise,
+#sunset {
+  color: #023e8a;
+
+  font-size: 30px;
+
+  font-weight: 800;
+
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+.card i {
+  font-size: 45px;
+
+  color: #0096c7;
+
+  margin-bottom: 15px;
+}
+
+.spinner-border {
+  width: 50px;
+
+  height: 50px;
+}
+
+#status {
+  padding: 10px;
+
+  font-size: 17px;
+
+  color: #0077b6;
+
+  font-weight: bold;
+}
+
+canvas {
+  max-height: 420px;
+}
+
+.card canvas {
+  padding: 15px;
+}
+
+.hero {
+  padding: 100px 20px;
+
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+
+  color: white;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero p {
+  font-size: 21px;
+}
+
+form input,
+form textarea {
+  border-radius: 15px;
+
+  border: 1px solid #90e0ef;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #0077b6;
+
+  box-shadow: 0 0 10px rgba(0, 119, 182, 0.4);
+}
+
+footer {
+  background: #023047;
+
+  color: white;
+
+  padding: 25px;
+
+  margin-top: 50px;
+}
+
+footer i {
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  #temp,
+  #wave,
+  #wind,
+  #direction,
+  #airTemp,
+  #humidity,
+  #windSpeed,
+  #pressure {
+    font-size: 24px;
+  }
+
+  .navbar-brand {
+    font-size: 21px;
+  }
+}
